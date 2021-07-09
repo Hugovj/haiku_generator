@@ -4,6 +4,8 @@ Main file = markov_haiku.py.
 
 Requires all files to run, plus nltk.cmudict, see below.
 
+
+
 Requires nltk, run following in terminal:
 
   pip install nltk
@@ -21,11 +23,13 @@ This opens a downloader window. Install cmudict in this window. Then run:
 If this doesn't give an error, you can try and run markov_haiku.py
 
 
+
 Other files:
 
 train.txt as database for haiku.
 
 missing_words.json as supplement to cmudict for counting syllables
+
 
 
 If you want to change the training database, replace train.txt, and edit main function of markov_haiku to use your new file (or name it train.txt).
