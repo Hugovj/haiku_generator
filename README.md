@@ -5,12 +5,12 @@ Requires all files to run, plus nltk.cmudict, see below.
 
 Requires nltk, run following in terminal:
   pip install nltk
-# then, in python:
+Then, in python:
   import nltk
   nltk.download()
-# this opens a downloader window. Install cmudict in this window.
+This opens a downloader window. Install cmudict in this window. Then run:
   from nltk.corpus import cmudict 
-# if this doesn't give an error, you can try and run markov_haiku.py
+If this doesn't give an error, you can try and run markov_haiku.py
 
 Other files:
 train.txt as database for haiku.
