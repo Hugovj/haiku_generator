@@ -7,7 +7,7 @@ import nltk
 cmudict = cmudict.dict()
 
 def main():
-    haiku = load_haiku(r'hoofdstuk_8_9\train.txt')
+    haiku = load_haiku('train.txt')
     exceptions = cmudict_missing(haiku)
     build_dict = input("\nManually build an exceptions dictionary? (y/n)\n")
     if build_dict.lower() == 'n':
