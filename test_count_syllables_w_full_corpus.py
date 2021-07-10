@@ -1,6 +1,6 @@
 from count_syllables import count_syllables
 
-with open(r'hoofdstuk_8_9\train.txt') as in_file:
+with open('train.txt') as in_file:
     words = set(in_file.read().split())
 
 missing = []
