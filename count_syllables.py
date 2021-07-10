@@ -3,7 +3,7 @@ from string import punctuation
 from nltk.corpus import cmudict
 from nltk.data import normalize_resource_name
 
-with open('hoofdstuk_8_9\missing_words.json') as f:
+with open('missing_words.json') as f:
     missing_words = json.load(f)
 
 cmudict = cmudict.dict()
