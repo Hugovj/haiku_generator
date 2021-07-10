@@ -148,7 +148,7 @@ def main():
     or one computer... can sometimes produce a haiku.\n"""
     print(intro)
 
-    raw_haiku = load_training_file(r"hoofdstuk_8_9\train.txt")
+    raw_haiku = load_training_file("train.txt")
     corpus = prep_training(raw_haiku)
     suffix_map_1 = map_word_to_word(corpus)
     suffix_map_2 = map_2_words_to_word(corpus)
